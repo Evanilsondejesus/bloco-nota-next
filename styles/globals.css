@@ -1,0 +1,45 @@
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Noto+Sans:wght@100&family=Oswald:wght@200&display=swap');
+
+
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box; 
+font-weight: 400;
+font-size: 13px;
+font-family: 'Noto Sans',;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+ 
+--amarelo_principal:  #EFED52;
+  
+--amarelo_gradiente: radial-gradient(
+rgba(239, 237, 82, 1),
+rgba(255, 255, 255, 0)
+);
+ 
+
+
+
+  
+}
