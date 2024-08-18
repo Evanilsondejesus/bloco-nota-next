@@ -10,6 +10,16 @@ import EscreverTexto from "./escreverTexto";
  
 
 
+
+const inter = Inter({
+  subsets: ["latin"], // Define o conjunto de caracteres que você quer carregar
+  weight: ["400", "700"], // Especifique os pesos da fonte, como normal e bold
+  style: ["normal"], // Especifique os estilos que deseja carregar (opcional)
+  display: "swap", // Controla como a fonte é carregada (swap é uma boa opção)
+});
+
+
+
  
 
 export default function Home() {
@@ -124,7 +134,7 @@ setMenuMobile(false)
         <link rel="icon" href="/imagens/pencil-square.png" />
       </Head>
 
-      <main className={`${styles.main_container} `}>
+      <main className={`${styles.main_container inter.className} `}>
 
 <div>
 {menuMobile && (
